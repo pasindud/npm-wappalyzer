@@ -1,5 +1,6 @@
 var request = require('request');
 var fs = require("fs");
+var path =require("path");
 
 //TODO
 exports.detectFromHTML = function  (options) {};
@@ -39,7 +40,7 @@ function getHTMLFromUrl (url,cb) {
 }
 
 function getAppsJson(cb) {
-    fs.readFile("apps.json", 'utf8', function(err, data) {
+    fs.readFile(path.resolve(__dirname, 'apps.json'), 'utf8', function(err, data) {
         if (err) throw err;
         return cb(null, JSON.parse(data))
     });
