@@ -2,6 +2,8 @@
 
 This is npm module for wappalyzer
 
+    npm install wappalyzer
+    
 
     var wappalyzer = require("wappalyzer");
 
