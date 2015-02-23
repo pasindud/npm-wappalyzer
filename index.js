@@ -14,7 +14,7 @@ exports.detectFromUrl = function  (options,cb) {
     };
 
     getHTMLFromUrl(url,function  (err,data) {
-        if (err) {
+        if (err || data==null) {
             cb(err,null)
         }else{
             runWrappalyer(options,data, function  (err,detected,appInfo) {
