@@ -78,6 +78,7 @@ function runWrappalyer(options,data,cb) {
             }
         }
         w.init();
+        w.detected = [];
         w.analyze(options.hostname,options.url, data)
     });
 }
