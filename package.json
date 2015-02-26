@@ -1,5 +1,5 @@
 {
-  "name": "wrappalyzer",
+  "name": "wappalyzer",
   "version": "2.0.1",
   "description": "NPM Module that uncovers the technologies used on websites",
   "main": "index.js",
