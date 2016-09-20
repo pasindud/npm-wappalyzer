@@ -5091,6 +5091,13 @@
 			"html": "<link[^>]+=['\"]//cdn\\.shopify\\.com",
 			"website": "shopify.com"
 		},
+		"ShopRoller": {
+			"cats": [
+				6
+			],
+			"html": "Shoproller.ee",
+			"website": "shoproller.ee"
+		},
 		"Shopware": {
 			"cats": [
 				6
